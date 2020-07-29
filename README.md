@@ -4,3 +4,10 @@
 
 - ssssss
 - aaaaaa
+
+
+   public HTMLLayout() {
+        pattern = DEFAULT_CONVERSION_PATTERN;
+        throwableRenderer = new DefaultThrowableRenderer();
+        cssBuilder = new DefaultCssBuilder();
+    }
